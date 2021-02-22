@@ -15,7 +15,15 @@
 
 <script>
 export default {
-  name:'ActivityRules'
+    name:'ActivityRules',
+      data(){
+        return{
+
+         }
+     },
+    mounted() {
+
+    }
 }
 </script>
 
@@ -23,5 +31,5 @@ export default {
   .rules_box
     img
       outline-width:0px;
-      vertical-align:top;
+      vertical-align:bottom;
 </style>
